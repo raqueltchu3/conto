@@ -1,0 +1,478 @@
+@keyframes corretronco01 {
+  0% {
+    left:100px;
+  }
+
+  100%{
+    left:2000px;
+  }
+}
+
+@keyframes correpernaesq01 {
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  100%{
+    transform: rotate(-150deg);
+  }
+}
+
+@keyframes correpernadir01 {
+  0% {
+    transform: rotate(-20deg);
+  }
+
+  100%{
+    transform: rotate(60deg);
+  }
+}
+
+@keyframes correbracoesq01 {
+  0% {
+    transform: rotate(-50deg);
+  }
+
+  100%{
+    transform: rotate(100deg);
+  }
+}
+
+
+@keyframes correpernaesq011 {
+  0% {
+    transform: rotate(20deg);
+  }
+
+  100%{
+    transform: rotate(-20deg);
+  }
+}
+
+@keyframes correpernadir011 {
+  0% {
+    transform: rotate(-20deg);
+  }
+
+  100%{
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes correbracoesq011 {
+  0% {
+    transform: rotate(-20deg);
+  }
+
+  100%{
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes correbracodir011 {
+  0% {
+    transform: rotate(20deg);
+  }
+
+  100%{
+    transform: rotate(-20deg);
+  }
+}
+
+
+@keyframes corretronco02 {
+  0% {
+    left:-200px;
+  }
+
+  100%{
+    left:2000px;
+  }
+}
+
+@keyframes corretronco022 {
+  0% {
+    top:300px;
+  }
+
+  100%{
+    top:600px;
+  }
+}
+
+@keyframes confete03 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100%{
+   opacity: 0;
+  }
+}
+@keyframes confete033 {
+  0% {
+    top: 10px;
+  }
+
+  100%{
+   top: 500px;
+  }
+}
+
+@keyframes corretronco03 {
+  0% {
+    left:-205px;
+  }
+
+  100%{
+    left:2005px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+div{
+}
+
+.historia{
+  top: 0;
+  bottom: -750px;
+  left: 0;
+  right: 0;
+  width:1500px;
+  height:200px;
+  margin: auto;
+  position: fixed;
+}
+.cenario{
+  position:fixed;
+  top: 0;
+  bottom: 300px;
+  left: 0;
+  right: 0;
+  width:1500px;
+  height:800px;
+  margin: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.coelho{
+  background-image: url("COELHO_tronco.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  bottom: 90px;
+  position: absolute;
+  transform-origin: bottom;
+}
+.coelho .perna.esq{
+background-image: url("COELHO_perna.E.png");
+background-size: contain;
+background-repeat: no-repeat;
+width: 200px;
+height: 200px;
+bottom: -100px;
+left: -80px;
+position: absolute;
+transform-origin: top right;
+z-index: -1;
+}
+.coelho .perna.dir{
+	background-image: url("COELHO_perna.D.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+	width: 220px;
+	height: 220px;
+  bottom: -130px;
+  left: 70px;
+  position: absolute;
+	transform-origin: top left;
+}
+.coelho .braco.esq{
+	background-image: url("COELHO_braco.E.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+  bottom: 100px;
+  left: 30px;
+  position: absolute;
+	transform-origin: right;
+  z-index: -1;
+}
+.coelho .braco.dir{
+	background-image: url("COELHO_braco.D.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+  bottom: 50px;
+  left: 135px;
+  position: absolute;
+	transform-origin: top left;
+}
+
+
+
+.tartaruga{
+  background-image: url("TARTARUGA_tronco.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  bottom: 90px;
+  position: absolute;
+  transform-origin: bottom;
+}
+.tartaruga .perna.esq{
+background-image: url("TARTARUGA_perna.E.png");
+background-size: contain;
+background-repeat: no-repeat;
+width: 100px;
+height: 100px;
+bottom: -40px;
+left: 80px;
+position: absolute;
+transform-origin: top left;
+z-index: -1;
+}
+.tartaruga .perna.dir{
+	background-image: url("TARTARUGA_perna.D.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+  bottom: -50px;
+  left: 100px;
+  position: absolute;
+	transform-origin: top left;
+}
+.tartaruga .braco.esq{
+	background-image: url("TARTARUGA_braco.E.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+  bottom: 50px;
+  left: 90px;
+  position: absolute;
+	transform-origin: left;
+  z-index: -1;
+}
+.tartaruga .braco.dir{
+	background-image: url("TARTARUGA_braco.D.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+  bottom: 40px;
+  left: 90px;
+  position: absolute;
+	transform-origin: top left;
+}
+
+
+
+.coelhofolgado{
+  background-image: url("COELHO_folgado.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+	width: 330px;
+	height: 330px;
+  bottom: 40px;
+  left: 90px;
+  position: absolute;
+  z-index: -1;
+}
+.confete{
+  background-image: url("CENA_confete3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+	width: 530px;
+	height: 530px;
+  bottom: 1000px;
+  left: 1000px;
+  position: absolute;
+}
+
+
+
+
+
+
+
+body.cena1 .historia{
+  background: url("HISTORIA_1.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body.cena1 .cenario{
+  background: url("CENA_1.png");
+  width:1500px;
+  height:800px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+body.cena1 .coelhofolgado{
+  bottom: 1000px;
+}
+body.cena1 .confete{
+  bottom: 1000px;
+}
+
+
+
+body.cena1 .coelho {
+  animation: corretronco01 10s 2s linear forwards;
+}
+body.cena1 .coelho .perna.esq {
+  animation: correpernaesq01 .2s 2s linear infinite alternate;
+}
+body.cena1 .coelho .perna.dir {
+  animation: correpernadir01 .2s 2s linear infinite alternate;
+}
+body.cena1 .coelho .braco.esq {
+  animation: correpernaesq01 .2s 2s linear infinite alternate;
+}
+body.cena1 .coelho .braco.dir {
+  animation: correpernadir01 .2s 2s linear infinite alternate;
+}
+
+
+
+body.cena1 .tartaruga {
+  animation: corretronco01 40s 2s forwards;
+}
+
+body.cena1 .tartaruga .perna.esq {
+  animation: correpernaesq011 4s 2s linear infinite alternate;
+}
+
+body.cena1 .tartaruga .perna.dir {
+  animation: correpernadir011 4s 2s linear infinite alternate;
+}
+
+body.cena1 .tartaruga .braco.esq {
+  animation: correbracoesq011 4s 2s linear infinite alternate;
+}
+
+body.cena1 .tartaruga .braco.dir {
+  animation: correbracodir011 4s 2s linear infinite alternate;
+}
+
+
+
+
+
+
+
+
+body.cena2 .historia{
+  background: url("HISTORIA_2.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body.cena2 .cenario{
+  background: url("CENA_2.png");
+  width:1500px;
+  height:800px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+body.cena2 .coelho {
+  bottom: 1000px;
+}
+body.cena2 .confete{
+  bottom: 1000px;
+}
+
+
+body.cena2 .coelhofolgado {
+  left: 800px;
+  bottom: 150px;
+}
+
+
+
+body.cena2 .tartaruga {
+  animation: corretronco02 40s forwards, corretronco022 40s forwards;
+}
+body.cena2 .tartaruga .perna.esq {
+  animation: correpernaesq011 4s linear infinite alternate;
+}
+body.cena2 .tartaruga .perna.dir {
+  animation: correpernadir011 4s linear infinite alternate;
+}
+body.cena2 .tartaruga .braco.esq {
+  animation: correbracoesq011 4s linear infinite alternate;
+}
+body.cena2 .tartaruga .braco.dir {
+  animation: correbracodir011 4s linear infinite alternate;
+}
+
+
+
+
+
+
+
+
+body.cena3 .historia{
+  background: url("HISTORIA_3.PNG");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body.cena3 .cenario{
+  background: url("CENA_3.png");
+  width:1500px;
+  height:800px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+body.cena3 .coelho {
+  bottom: 1000px;
+}
+
+
+
+body.cena3 .coelhofolgado {
+  bottom: 1000px;
+}
+body.cena3 .confete{
+  animation: confete03 3s 12s forwards, confete033 3s 12s forwards;
+}
+
+
+body.cena3 .tartaruga {
+  animation: corretronco03 40s forwards;
+}
+body.cena3 .tartaruga .perna.esq {
+  animation: correpernaesq011 4s linear infinite alternate;
+}
+body.cena3 .tartaruga .perna.dir {
+  animation: correpernadir011 4s linear infinite alternate;
+}
+body.cena3 .tartaruga .braco.esq {
+  animation: correbracoesq011 4s linear infinite alternate;
+}
+body.cena3 .tartaruga .braco.dir {
+  animation: correbracodir011 4s linear infinite alternate;
+}
